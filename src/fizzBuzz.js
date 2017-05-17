@@ -9,19 +9,21 @@ Date: 17 May, 2017.
 module.exports = {
 
 fizzBuzz: function (i){
+
   if (i % 3 === 0){
     if (i % 5 === 0){
-    return "FizzBuzz";}
+      return "FizzBuzz";
+    }
   
     else{
-    return "Fizz";}
-  }
+      return "Fizz";
+      }
+    }
   else if (i % 5 === 0){
     return "Buzz";
     
-  }
+    }
   else
-  return i;
-  
-}
+    return i;
+  }
 }
