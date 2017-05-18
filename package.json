@@ -1,11 +1,22 @@
 {
-  "name": "home-session2",
+  "name": "andela-bootcamp-day1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "car.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine spec/*"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasili-adetunji/abv-bc-session1.git"
+  },
+  "author": "Sasiliyu Adetunji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasili-adetunji/abv-bc-session1/issues"
+  },
+  "homepage": "https://github.com/sasili-adetunji/abv-bc-session1#readme",
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "devDependencies": {}
 }
