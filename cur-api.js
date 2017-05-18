@@ -3,7 +3,9 @@
 let prompt = require('prompt'); 
 let request = require('request'); 
 let chalk = require('chalk');
-var figlet = require('figlet');
+let figlet = require('figlet');
+let clear = require('clear');
+
 
 
 clear();
