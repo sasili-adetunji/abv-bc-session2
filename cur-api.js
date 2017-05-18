@@ -2,12 +2,17 @@
 
 let prompt = require('prompt'); 
 let request = require('request'); 
-let figlet = require('figlet');
 let chalk = require('chalk');
+var figlet = require('figlet');
 
 
-console.log(chalk.blue('Currency')); 
-console.log(chalk.green('This app converts your Euros to USD ')); 
+clear();
+console.log(
+  chalk.green(
+    figlet.textSync('Currency', { horizontalLayout: 'full' })
+  )
+); 
+console.log(chalk.blue('This app converts your Euros to USD ')); 
 
  
 //Function to convert from eur 
