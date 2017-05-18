@@ -16,6 +16,11 @@
   },
   "homepage": "https://github.com/sasili-adetunji/abv-bc-session1#readme",
   "dependencies": {
+  	"chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "figlet": "^1.2.0",
+    "prompt": "^3.0.1",
+    "request": "^0.5.1",
     "jasmine": "^2.6.0"
   },
   "devDependencies": {}
