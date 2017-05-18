@@ -4,4 +4,4 @@ This app converts Euros to US dollars using fixer api web services. It returns t
 To use the app
 - Download or clone the app on your local machine
 - Run ```npm install```
--Run ```node cur-api.js```
+- Run ```node cur-api.js```
